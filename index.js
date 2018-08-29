@@ -1,5 +1,3 @@
-var global = (function() { return this; })();
-
 if (typeof global.window === 'undefined') {
     // create a custom window object to emulate the normal browser window
     var window = {navigator:{userAgent:"atmosphere.js"},document:{},location:{},JSON:JSON};
@@ -15,4 +13,4 @@ if (typeof global.window === 'undefined') {
     global.document = window.document;
 }
 
-module.exports = require('./lib/atmosphere');
+module.exports = require('atmosphere.js');

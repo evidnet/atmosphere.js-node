@@ -1,7 +1,7 @@
 {
-  "name": "atmosphere.js",
+  "name": "node-atmosphere",
   "version": "2.3.6",
-  "homepage": "https://github.com/Atmosphere/atmosphere-javascript",
+  "homepage": "https://github.com/evidnet/atmosphere.js-node",
   "description": "Atmosphere client for Node.js",
   "main": "index.js",
   "scripts": {
@@ -9,19 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Atmosphere/atmosphere.js-node.git"
+    "url": "https://github.com/evidnet/atmosphere.js-node.git"
   },
   "keywords": [
     "atmosphere"
   ],
-  "author": "Jeanfrancois Arcand <jfarcand@apache.org>",
+  "author": "Haze Lee <hazelee@evidnet.co.kr>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Atmosphere/atmosphere-javascript/issues"
+    "url": "https://github.com/evidnet/atmosphere.js-node/issues"
   },
   "dependencies": {
-    "ws": "^1.0.1",
+    "atmosphere.js": "^2.3.6",
     "eventsource": "^0.1.6",
+    "ws": "^1.0.1",
     "xmlhttprequest": "^1.8.0"
   },
   "browser": "./lib/browser.js",
