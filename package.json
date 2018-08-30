@@ -20,6 +20,7 @@
     "url": "https://github.com/evidnet/atmosphere.js-node/issues"
   },
   "dependencies": {
+    "@types/atmosphere.js": "^2.1.1",
     "atmosphere.js": "^2.3.6",
     "eventsource": "^0.1.6",
     "ws": "^1.0.1",
